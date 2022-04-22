@@ -1,17 +1,24 @@
 body{
-
     text-align: center; 
-    background: #cccccc;
+}
 
+#banner{
+    width: 80%;
+    border-radius: 25px;
+}
+
+.principal{
+    background: #999999;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 h1{
-    background: #89b1ee;
+    margin-top: 10px;
 }
 
 p {
     text-align: center; 
-    background: #89b1ee;
 }
 
 #missao {
@@ -20,4 +27,33 @@ p {
 
 em strong{
     color: rgb(161, 42, 26);
+}
+
+.beneficios{
+    background: #ffffff;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 25%;
+    background-color: #999999;
+    border-radius: 10px;
+}
+
+.itens{
+    font-style: italic;
+    text-align: left;
+
+}
+
+.imagembeneficios{
+    width: 50%;
+    border-radius: 25px;
 }
